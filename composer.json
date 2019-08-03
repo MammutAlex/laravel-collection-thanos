@@ -9,6 +9,7 @@
   "homepage": "https://github.com/MammutAlex/laravel-collection-thanos",
   "type": "library",
   "license": "MIT",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "Alex Kovalchuk",
