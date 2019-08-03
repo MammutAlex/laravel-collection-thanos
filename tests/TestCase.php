@@ -16,6 +16,7 @@ abstract class TestCase extends BaseTestCase
     protected function createDummyprovider(): CollectionThanosServiceProvider
     {
         $reflectionClass = new ReflectionClass(CollectionThanosServiceProvider::class);
+
         return $reflectionClass->newInstanceWithoutConstructor();
     }
 }

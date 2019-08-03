@@ -11,7 +11,7 @@ class CollectionThanosServiceProvider extends ServiceProvider
     {
         Collection::macro('thanos', function () {
             return $this->filter(function ($value) {
-                return (bool)random_int(0, 1);
+                return (bool) random_int(0, 1);
             });
         });
     }
