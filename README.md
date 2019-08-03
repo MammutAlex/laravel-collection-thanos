@@ -3,7 +3,7 @@
 <p align="center">
 <a href="https://travis-ci.org/MammutAlex/laravel-collection-thanos"><img src="https://travis-ci.org/MammutAlex/laravel-collection-thanos.svg?branch=master" alt="Build Status"></a>
 <a href="https://lima.codeclimate.com/github/MammutAlex/laravel-collection-thanos/badges/gpa.svg"><img src="https://lima.codeclimate.com/github/MammutAlex/laravel-collection-thanos" alt="Code Climate"></a>
-<a href="https://styleci.io/repos/200339313/shield?branch=master"><img src="https://styleci.io/repos/200339313" alt="LStyleCI"></a>
+<a href="https://styleci.io/repos/200339313/shield?branch=master"><img src="https://styleci.io/repos/200339313" alt="StyleCI"></a>
 </p>
 
 ## Installation
@@ -13,7 +13,7 @@ Require this package in your `composer.json` and update composer.
 "mammut-alex/laravel-collection-thanos": "^1.0"
 ```
 
-or `cmammut-alex/laravel-collection-thanos`
+or `composer require mammut-alex/laravel-collection-thanos`
 
 ## Introduction
 
