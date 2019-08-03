@@ -1,0 +1,35 @@
+
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <rect id="background.primary" fill="#EE0E51" fill-rule="nonzero" filter="url(#filter-1)" x="0" y="0" width="500" height="500" rx="100"></rect>
+            <g id="svg_frame.secondary" transform="translate(149.000000, 39.000000)" fill="#E4DCEF" fill-rule="nonzero">
+                <g id="Page-1">
+                    <polygon id="frame.secondary" points="101.5 0 203 59.25 203 177.75 101.5 237 0 177.75 0 59.25"></polygon>
+                </g>
+            </g>
+            <path d="M153.592318,358.574147 L335.223757,24.9975312 L336,23.5716785 L333.183925,22 L332.409032,23.4258527 L150.776243,357.002469 L150,358.428321 L152.816075,360 L153.592318,358.574147 L153.592318,358.574147 Z M250.592318,358.574147 L432.223757,24.9975312 L433,23.5716785 L430.185275,22 L429.409032,23.4258527 L247.776243,357.002469 L247,358.428321 L249.816075,360 L250.592318,358.574147 L250.592318,358.574147 Z M94.5918535,401.532854 L271.311854,24.8575 L272,23.3917008 L269.097642,22 L268.409496,23.4671464 L91.6881462,400.1425 L91,401.608299 L93.9023579,403 L94.5905042,401.532854 L94.5918535,401.532854 Z M353.974172,360.672865 L71.4953642,16.2496977 L70.4708841,15 L68,17.076089 L69.0244801,18.3257868 L351.504636,362.750302 L352.529116,364 L355,361.923911 L353.97552,360.674213 L353.974172,360.672865 Z M412.308792,312.595891 L208.682376,16.0067967 L207.991168,15 L206,16.3973118 L206.692226,17.4041085 L410.317624,313.993203 L411.008832,315 L413,313.602688 L412.307774,312.595891 L412.308792,312.595891 Z" id="shape.primary" fill="#EE0E51" fill-rule="nonzero"></path>
+            <g id="Group" transform="translate(40.000000, 291.000000)">
+                <rect id="Rectangle-22" x="0" y="18" width="420" height="60"></rect>
+                <g id="headerText.secondary" transform="translate(112.000000, 0.000000)" fill="#E4DCEF" font-family="Whitney-Bold, Whitney" font-size="60" font-weight="bold">
+                    <text id="Thanos">
+                        <tspan x="0" y="61">Thanos</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(40.000000, 375.000000)">
+                <rect id="Rectangle" x="0" y="3" width="420" height="40"></rect>
+                <g id="captionText.secondary" opacity="0.8" transform="translate(36.000000, 0.000000)" fill="#E4DCEF" font-family="Whitney-Book, Whitney" font-size="35" font-weight="300">
+                    <text id="laravel-collection-disaster">
+                        <tspan x="0.8671875" y="35">laravel collection disaster</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
