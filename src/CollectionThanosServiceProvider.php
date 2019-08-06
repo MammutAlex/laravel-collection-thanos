@@ -2,7 +2,6 @@
 
 namespace MammutAlex\CollectionThanos;
 
-use Faker\Factory;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 
