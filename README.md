@@ -22,8 +22,15 @@ Thanos is disaster some of you collection.
 Here is an example
 
 ```php
-    $data = new Collection([1, 2, 3, 4, 5, 6, 7, 8, 9]);
-    $data->thanos()->all();//[2,4,5,8]
+    $data = new Collection([1, 2, 3, 4, 5, 6, 7, 8, 9,10]);
+    $data->thanos()->all();//[2,4,5,8,10]
+```
+
+Also you can  choose the degree of kindness of the Thanos (what percentage of ~~creature~~ he items to have mercy)
+
+```php
+    $data = new Collection([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
+    $data->thanos(20)->all();//[2,5]
 ```
 
 ## License

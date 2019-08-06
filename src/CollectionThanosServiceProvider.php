@@ -2,6 +2,7 @@
 
 namespace MammutAlex\CollectionThanos;
 
+use Faker\Factory;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 
@@ -9,9 +10,9 @@ class CollectionThanosServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        Collection::macro('thanos', function () {
-            return $this->filter(function ($value) {
-                return (bool) random_int(0, 1);
+        Collection::macro('thanos', function ($percent = 50) {
+            return $this->filter(function () use ($percent) {
+                return mt_rand(1, 100) <= $percent;
             });
         });
     }
